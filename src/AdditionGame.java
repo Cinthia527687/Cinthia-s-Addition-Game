@@ -18,6 +18,43 @@ public class AdditionGame {
 		//  	IF wrong
 		//  		Tell them they are wrong, why, and correct the answer
 		//  		Make next question easier
+		//Round 2
+		// Generate 2 Random numbers
+		// Ask the user to add these two numbers together
+		// Read in their response
+		// Check if the answer was correct
+		//  	IF correct
+		//  		Give them points
+		//  		Make next question harder
+		//  		Tell them they are correct
+		//  	IF wrong
+		//  		Tell them they are wrong, why, and correct the answer
+		//  		Make next question easier
+		//Round 3
+		// Generate 2 Random numbers
+		// Ask the user to add these two numbers together
+		// Read in their response
+		// Check if the answer was correct
+		//  	IF correct
+		//  		Give them points
+		//  		Make next question harder
+		//  		Tell them they are correct
+		//  	IF wrong
+		//  		Tell them they are wrong, why, and correct the answer
+		//  		Make next question easier
+		//Round 4
+		// Generate 2 Random numbers
+		// Ask the user to add these two numbers together
+		// Read in their response
+		// Check if the answer was correct
+		//  	IF correct
+		//  		Give them points
+		//  		Make next question harder
+		//  		Tell them they are correct
+		//  	IF wrong
+		//  		Tell them they are wrong, why, and correct the answer
+		//  		Make next question easier
+		
 
 	}
 
