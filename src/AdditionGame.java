@@ -32,12 +32,13 @@ public class AdditionGame {
 						System.out.println("Your answer was correct.");
 						
 					// Give them points
-					score += hardness;
-					System.out.println("Your score is now: " + score);
+						score += hardness;
+						System.out.println("Your score is now: " + score);
 		
 					// Make next question harder
 						hardness *= 10;
-					
+				
+			}else{
 				// IF incorrect
 						
 					// Tell them they are incorrect
@@ -49,13 +50,14 @@ public class AdditionGame {
 					// Don't give points
 						score += 0;
 						
+						
 					// Make next question easier
-						if(hardness>10){
+						if(hardness >= 10){
 							
 							hardness /= 10;
-							System.out.println("Your difficulty is now: " + hardness);
+							System.out.println("Your difficulty is now: " + hardness);	
 							
-						}else{
+					}else{
 								
 							System.out.println("Your difficulty is at the lowest level");
 							System.out.println("Your difficulty is now: " + hardness);
@@ -73,7 +75,7 @@ public class AdditionGame {
 			int correctAnswer2 = number3 + number4;
 				
 		// Ask the user to add these two numbers together
-			System.out.println("What number is" + number3 + "+" + number4 + "?");
+			System.out.println("What number is " + number3 +  "+ " + number4 + "?");
 				
 		// Read in their response
 			Scanner input2 = new Scanner(System.in);
@@ -93,7 +95,8 @@ public class AdditionGame {
 			
 					// Make next question harder
 						hardness *= 10;
-						
+				
+			}else{
 				// IF incorrect
 							
 					// Tell them they are incorrect
@@ -129,7 +132,7 @@ public class AdditionGame {
 			int correctAnswer3 = number5 + number6;
 					
 		// Ask the user to add these two numbers together
-			System.out.println("What number is" + number5 + "+" + number6 + "?");
+			System.out.println("What number is " + number5 + " + " + number6 + "?");
 					
 		// Read in their response
 			Scanner input3 = new Scanner(System.in);
@@ -149,7 +152,8 @@ public class AdditionGame {
 				
 					// Make next question harder
 						hardness *= 10;
-							
+				
+			}else{		
 				// IF incorrect
 								
 					// Tell them they are incorrect
@@ -185,7 +189,7 @@ public class AdditionGame {
 			int correctAnswer4 = number7 + number8;
 					
 		// Ask the user to add these two numbers together
-			System.out.println("What number is" + number7 + "+" + number8 + "?");
+			System.out.println("What number is " + number7 + " +"  + number8 + "?");
 					
 		// Read in their response
 			Scanner input4 = new Scanner(System.in);
@@ -205,7 +209,7 @@ public class AdditionGame {
 				
 					// Make next question harder
 						hardness *= 10;
-							
+			}else{		
 				// IF incorrect
 								
 					// Tell them they are incorrect
