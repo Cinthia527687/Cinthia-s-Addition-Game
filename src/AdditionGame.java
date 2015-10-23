@@ -14,10 +14,10 @@ public class AdditionGame {
 		// Generate 2 Random numbers
 			int number1 = (int)(Math.random() * hardness);
 			int number2 = (int)(Math.random() * hardness);
-			int correctAnswer = number1 = number2;
+			int correctAnswer = number1 + number2;
 			
 		// Ask the user to add these two numbers together
-			System.out.println("What number is" + number1 + "+" + number2 + "?");
+			System.out.println("What number is " + number1 + " + " + number2 + "?");
 			
 		// Read in their response
 			Scanner input = new Scanner(System.in);
@@ -68,19 +68,19 @@ public class AdditionGame {
 	//Round 2
 			
 		// Generate 2 Random numbers
-			int number1 = (int)(Math.random() * hardness);
-			int number2 = (int)(Math.random() * hardness);
-			int correctAnswer = number1 = number2;
+			int number3 = (int)(Math.random() * hardness);
+			int number4 = (int)(Math.random() * hardness);
+			int correctAnswer2 = number3 + number4;
 				
 		// Ask the user to add these two numbers together
-			System.out.println("What number is" + number1 + "+" + number2 + "?");
+			System.out.println("What number is" + number3 + "+" + number4 + "?");
 				
 		// Read in their response
-			Scanner input = new Scanner(System.in);
-			int studentAnswer = input.nextInt();
+			Scanner input2 = new Scanner(System.in);
+			int studentAnswer2 = input.nextInt();
 				
 		// Check if the answer was correct
-			if(studentAnswer == correctAnswer){
+			if(studentAnswer2 == correctAnswer2){
 					
 				// IF correct
 					
@@ -100,7 +100,7 @@ public class AdditionGame {
 						System.out.println("Your answer was incorrect.");
 							
 					// Tell them the correct answer
-						System.out.println("The correct answer was: " + correctAnswer);
+						System.out.println("The correct answer was: " + correctAnswer2);
 							
 					// Don't give points
 						score += 0;
@@ -124,19 +124,19 @@ public class AdditionGame {
 	//Round 3
 			
 		// Generate 2 Random numbers
-			int number1 = (int)(Math.random() * hardness);
-			int number2 = (int)(Math.random() * hardness);
-			int correctAnswer = number1 = number2;
+			int number5 = (int)(Math.random() * hardness);
+			int number6 = (int)(Math.random() * hardness);
+			int correctAnswer3 = number5 + number6;
 					
 		// Ask the user to add these two numbers together
-			System.out.println("What number is" + number1 + "+" + number2 + "?");
+			System.out.println("What number is" + number5 + "+" + number6 + "?");
 					
 		// Read in their response
-			Scanner input = new Scanner(System.in);
-			int studentAnswer = input.nextInt();
+			Scanner input3 = new Scanner(System.in);
+			int studentAnswer3 = input.nextInt();
 					
 		// Check if the answer was correct
-			if(studentAnswer == correctAnswer){
+			if(studentAnswer3 == correctAnswer3){
 						
 				// IF correct
 						
@@ -156,7 +156,7 @@ public class AdditionGame {
 						System.out.println("Your answer was incorrect.");
 								
 					// Tell them the correct answer
-						System.out.println("The correct answer was: " + correctAnswer);
+						System.out.println("The correct answer was: " + correctAnswer3);
 								
 					// Don't give points
 						score += 0;
@@ -180,19 +180,19 @@ public class AdditionGame {
 	//Round 4
 			
 		// Generate 2 Random numbers
-			int number1 = (int)(Math.random() * hardness);
-			int number2 = (int)(Math.random() * hardness);
-			int correctAnswer = number1 = number2;
+			int number7 = (int)(Math.random() * hardness);
+			int number8 = (int)(Math.random() * hardness);
+			int correctAnswer4 = number7 + number8;
 					
 		// Ask the user to add these two numbers together
-			System.out.println("What number is" + number1 + "+" + number2 + "?");
+			System.out.println("What number is" + number7 + "+" + number8 + "?");
 					
 		// Read in their response
-			Scanner input = new Scanner(System.in);
-			int studentAnswer = input.nextInt();
+			Scanner input4 = new Scanner(System.in);
+			int studentAnswer4 = input.nextInt();
 					
 		// Check if the answer was correct
-			if(studentAnswer == correctAnswer){
+			if(studentAnswer4 == correctAnswer4){
 						
 				// IF correct
 						
@@ -212,7 +212,7 @@ public class AdditionGame {
 						System.out.println("Your answer was incorrect.");
 								
 					// Tell them the correct answer
-						System.out.println("The correct answer was: " + correctAnswer);
+						System.out.println("The correct answer was: " + correctAnswer4);
 								
 					// Don't give points
 						score += 0;
