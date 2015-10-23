@@ -38,9 +38,29 @@ public class AdditionGame {
 					// Make next question harder
 						hardness *= 10;
 					
-				// 	IF wrong
-				// 		Tell them they are wrong, why, and correct the answer
-				// 		Make next question easier
+				// IF incorrect
+						
+					// Tell them they are incorrect
+						System.out.println("Your answer was incorrect.");
+						
+					// Tell them the correct answer
+						System.out.println("The correct answer was: " + correctAnswer);
+						
+					// Don't give points
+						score += 0;
+						
+					// Make next question easier
+						if(hardness>10){
+							
+							hardness /= 10;
+							System.out.println("Your difficulty is now: " + hardness);
+							
+						}else{
+								
+							System.out.println("Your difficulty is at the lowest lever");
+							System.out.println("Your difficulty is now: " + hardness);
+						}
+						
 			}
 
 		//Round 2
